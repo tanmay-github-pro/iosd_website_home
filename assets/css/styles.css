@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+#header {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button{
+    text-align: center;
+    padding:10px;
+    margin:3px;
+    border-radius:20px;
+    outline-color: initial;
+      outline-style: none;
+      outline-width: initial;
+    border-top-color: initial;
+      border-top-style: none;
+      border-top-width: initial;
+      border-right-color: initial;
+      border-right-style: none;
+      border-right-width: initial;
+      border-bottom-color: initial;
+      border-bottom-style: none;
+      border-bottom-width: initial;
+      border-left-color: initial;
+      border-left-style: none;
+      border-left-width: initial;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      color:black;
+    }
