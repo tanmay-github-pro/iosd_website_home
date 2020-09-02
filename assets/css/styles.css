@@ -1,35 +1,85 @@
-body {
-    margin: 0;
+body{
+  margin: 0;
 }
-#header {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
+#header{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#who{
+  background-color: #FF934F;
+}
+#projects{
+  color: white;
+}
+.row{
+  padding-top: 0.5rem;
+  padding: 2rem;
+}
+#why{
+  background-color: #D3F6DB;
+  color: black;
+}
+#web-dev{
+  background-color: #1F8AAD;
+}
+#app-dev{
+  background-color: #025964;
+}
+#ml{
+  background-color: #331E36;
+}
+h2{
+  padding-top: 5px;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  margin-bottom: 0%;
 }
 button{
-    text-align: center;
-    padding:10px;
-    margin:3px;
-    border-radius:20px;
-    outline-color: initial;
-      outline-style: none;
-      outline-width: initial;
-    border-top-color: initial;
-      border-top-style: none;
-      border-top-width: initial;
-      border-right-color: initial;
-      border-right-style: none;
-      border-right-width: initial;
-      border-bottom-color: initial;
-      border-bottom-style: none;
-      border-bottom-width: initial;
-      border-left-color: initial;
-      border-left-style: none;
-      border-left-width: initial;
-      border-image-source: initial;
-      border-image-slice: initial;
-      border-image-width: initial;
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      color:black;
-    }
+  text-align: center;
+  padding:10px;
+  margin:3px;
+  border-radius:20px;
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+  border-top-color: initial;
+  border-top-style: none;
+  border-top-width: initial;
+  border-right-color: initial;
+  border-right-style: none;
+  border-right-width: initial;
+  border-bottom-color: initial;
+  border-bottom-style: none;
+  border-bottom-width: initial;
+  border-left-color: initial;
+  border-left-style: none;
+  border-left-width: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  color:black;
+  background-color: initial;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+button:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.container{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.card{
+  background-color: initial;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
