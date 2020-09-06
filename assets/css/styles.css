@@ -44,7 +44,7 @@ h1{
 {
   height: 90vh;
   width: 100vw;
-  margin-bottom:20px;
+  margin-bottom:0rem;
   padding-top: 45vh;
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
@@ -75,9 +75,7 @@ ul.demo {
   text-align: left;
   font-size:130%;
 }
-li{
-  padding-bottom: 10%;
-}
+
 .jumbotronPadding1{
   padding: 10% 10%;
   height:75vh;
@@ -170,8 +168,13 @@ input[type=submit]:hover {
   color: white;
   text-align: center;
 }
-.ul{
+ul{
   list-style:none;
+}
+li{
+  padding: 1.8rem;
+  font-family: sans-serif;
+  line-height: 1.15;
 }
 
 a{
@@ -254,16 +257,23 @@ header{
 }
 #who{
   margin-top:0;
-  background-color: #FF934F;
+  background-color: #F8FFF4;
 }
 #who .row h2{
   margin:auto;
   justify-content: center;
   text-align: center;
+  color: #807171;
 }
 #who .row p{
   justify-content: center;
   text-align: center;
+  color: black;
+  padding: 1rem;
+  line-height: 1.88rem;
+  font-size: 20px;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
 }
 #projects{
   color: white;
@@ -271,21 +281,23 @@ header{
 .row{
   padding-top: 0.5rem;
   padding: 2rem;
+  text-align: center;
 }
+
 #why{
   
  margin-bottom: 100px;
-  background-color: #D3F6DB;
-  color: black;
+  background-color: #3A3F45;
+  color: #807171;
 }
 #web-dev{
-  background-color: #1F8AAD;
+  background-color: #02111B;
 }
 #app-dev{
-  background-color: #025964;
+  background-color: #7A918D;
 }
 #ml{
-  background-color: #331E36;
+  background-color: #BF211E;
 }
 h2{
   padding-top: 5px;
