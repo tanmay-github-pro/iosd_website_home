@@ -172,9 +172,10 @@ ul{
   list-style:none;
 }
 li{
-  padding: 1.8rem;
+  padding: 1rem;
   font-family: sans-serif;
   line-height: 1.15;
+  font-size: xx-large;
 }
 
 a{
@@ -290,6 +291,9 @@ header{
   background-color: #3A3F45;
   color: #807171;
 }
+#img-why h2{
+  font-size: 900%;
+}
 #web-dev{
   background-color: #02111B;
 }
@@ -346,6 +350,7 @@ button:hover{
 p{
   text-align: center;
 }
+
 .card{
   background-color: initial;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
